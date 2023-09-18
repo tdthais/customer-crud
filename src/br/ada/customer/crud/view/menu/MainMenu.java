@@ -24,7 +24,7 @@ public class MainMenu implements View {
                         ProductFactory.createUseCase(),
                         this
                 ),
-                //new OrderMenuView(this),
+                new OrderMenuView(this),
                 new ExitOptionView()
         ));
         subMenuView.render();
